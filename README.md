@@ -11,7 +11,9 @@ A primeira linha contém um inteiro n, que representa da lista arr.
 A segunda linha contém n inteiros separados por espaço, que são os elementos de arr, sendo arr[i] o i-ésimo elemento da lista.
 
 - Restrições
+
 1 ≤ n ≤ 10⁵
+
 1 ≤ arr[i] ≤ 10⁵
 
 - Saída
@@ -49,9 +51,13 @@ ladrilhos[i] = 1 indica que o i-ésimo ladrilho é vermelho.
 A terceira linha contém um inteiro k representando o tamanho do pulo que Maria deve dar.
 
 - Restrições
+
 2 ≤ n ≤ 25
+
 1 ≤ k ≤ n
+
 n % k = 0
+
 ladrilhos[i] ∈ {0, 1}
 
 - Saída
@@ -93,8 +99,11 @@ A segunda linha contém n inteiros separados por espaço, que são os elementos 
 A terceira linha contém a nota de João j.
 
 - Restrições
+
 1 ≤ n ≤ 103
+
 0 ≤ ranking[i] ≤ 105
+
 0 ≤ j ≤ 105
  
 - Saída
@@ -134,7 +143,9 @@ A primeira linha contém um inteiro n, que representa o tamanho da lista parreir
 A segunda linha contém n inteiros separados por espaço, que são os elementos de parreiras, sendo parreiras[i] o tipo da uva produzida pela i-ésima parreira.
 
 - Restrições
+
 1 ≤ n ≤ 105
+
 0 ≤ parreiras[i] < 105
  
 - Saída
