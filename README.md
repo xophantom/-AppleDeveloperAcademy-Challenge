@@ -66,6 +66,7 @@ A energia restante de Maria após o término da brincadeira, isto é, após reto
 
 
 - Exemplo
+
 Entrada:
 ```dados
 4
@@ -112,6 +113,7 @@ Um número inteiro representando a posição final de João no ranking.
 
  
 - Exemplo
+
 Entrada:
 ```dados
 4
@@ -154,6 +156,7 @@ Um número inteiro representando a quantidade máxima de cachos de uva que você
 
 
 - Exemplo
+
 Entrada:
 ```dados
 4
