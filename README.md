@@ -5,20 +5,20 @@ Este repositório contém a resolução da etapa de teste técnico proposto pela
 
 Dada uma lista de números inteiros arr de tamanho n, conte quantas vezes o menor elemento aparece na lista.
 
-Entrada:
+- Entrada
 A primeira linha contém um inteiro n, que representa da lista arr.
 
 A segunda linha contém n inteiros separados por espaço, que são os elementos de arr, sendo arr[i] o i-ésimo elemento da lista.
 
-Restrições:
-- 1 ≤ n ≤ 10⁵
-- 1 ≤ arr[i] ≤ 10⁵
+- Restrições
+1. 1 ≤ n ≤ 10⁵
+2. 1 ≤ arr[i] ≤ 10⁵
 
-Saída:
+- Saída
 Um único número inteiro indicando quantas vezes o menor elemento de arr aparece na lista.
 
 
-Exemplo
+- Exemplo
 
 Entrada:
 ```dados
@@ -39,9 +39,7 @@ Maria começa com uma quantidade de energia e = 100 e gasta uma unidade de energ
 
 Seu objetivo é criar um programa que retorne a quantidade de energia restante de Maria após finalizar a brincadeira.
 
- 
-
-Entrada:
+- Entrada
 A primeira linha contém um inteiro n, que representa o tamanho da lista ladrilhos.
 
 A segunda linha contém n inteiros separados por espaço, que são os elementos de ladrilhos, sendo ladrilhos[i] o tipo do i-ésimo ladrilho, onde:
@@ -50,19 +48,17 @@ ladrilhos[i] = 0 indica que o i-ésimo ladrilho é azul;
 ladrilhos[i] = 1 indica que o i-ésimo ladrilho é vermelho.
 A terceira linha contém um inteiro k representando o tamanho do pulo que Maria deve dar.
 
-Restrições:
+- Restrições
+1. 2 ≤ n ≤ 25
+2. 1 ≤ k ≤ n
+3. n % k = 0
+4. ladrilhos[i] ∈ {0, 1}
 
-2 ≤ n ≤ 25
-1 ≤ k ≤ n
-n % k = 0
-ladrilhos[i] ∈ {0, 1}
-
-Saída:
+- Saída
 A energia restante de Maria após o término da brincadeira, isto é, após retornar ao ladrilho inicial.
 
 
-Exemplo 
-
+- Exemplo
 Entrada:
 ```dados
 4
@@ -89,26 +85,23 @@ Por exemplo, considerando o mural ranking = [50, 45, 45, 42, 40, 30] e a nota de
 
 Seu objetivo é, dado o mural e nota de João, informar a posição final de João no ranking.
 
-Entrada:
+- Entrada
 A primeira linha contém um inteiro n, que representa o tamanho do mural ranking.
 
 A segunda linha contém n inteiros separados por espaço, que são os elementos de ranking, sendo ranking[i] o i-ésimo elemento da lista.
 
 A terceira linha contém a nota de João j.
 
-Restrições:
-
-1 ≤ n ≤ 103
-0 ≤ ranking[i] ≤ 105
-0 ≤ j ≤ 105
+- Restrições
+1. 1 ≤ n ≤ 103
+2. 0 ≤ ranking[i] ≤ 105
+3. 0 ≤ j ≤ 105
  
-
-Saída:
+- Saída
 Um número inteiro representando a posição final de João no ranking.
 
  
-Exemplo
-
+- Exemplo
 Entrada:
 ```dados
 4
@@ -134,23 +127,20 @@ começando de qualquer parreira à sua escolha, você deve colher exatamente um 
 quando você chegar a uma parreira cujo cacho não pode mais ser armazenado em uma de suas cestas, você deve parar a colheita.
 Dada uma lista de números inteiros parreiras, construa um programa que retorne a quantidade máxima de cachos de uva que você pode colher.
 
-Entrada:
+- Entrada
 A primeira linha contém um inteiro n, que representa o tamanho da lista parreiras.
 
 A segunda linha contém n inteiros separados por espaço, que são os elementos de parreiras, sendo parreiras[i] o tipo da uva produzida pela i-ésima parreira.
 
-Restrições:
-
-1 ≤ n ≤ 105
-0 ≤ parreiras[i] < 105
+- Restrições
+1. 1 ≤ n ≤ 105
+2. 0 ≤ parreiras[i] < 105
  
-
-Saída:
+- Saída
 Um número inteiro representando a quantidade máxima de cachos de uva que você pode colher na fileira de parreiras da vinícola.
 
 
-Exemplo
-
+- Exemplo
 Entrada:
 ```dados
 4
